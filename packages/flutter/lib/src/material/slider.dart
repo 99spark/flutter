@@ -793,7 +793,7 @@ class _SliderState extends State<Slider> with TickerProviderStateMixin {
     const SliderComponentShape defaultOverlayShape = RoundSliderOverlayShape();
     const SliderComponentShape defaultThumbShape = RoundSliderThumbShape();
     final SliderComponentShape defaultValueIndicatorShape = defaults.valueIndicatorShape!;
-    const ShowValueIndicator defaultShowValueIndicator = ShowValueIndicator.onlyForDiscrete;
+    const ShowValueIndicator defaultShowValueIndicator = ShowValueIndicator.always;
     const SliderInteraction defaultAllowedInteraction = SliderInteraction.tapAndSlide;
 
     final Set<MaterialState> states = <MaterialState>{
